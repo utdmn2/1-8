@@ -5,18 +5,19 @@
 }
 
 main {
+  width: 960px;
   margin: 50px auto;
 }
 
-.list {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+.item-list {
   margin-bottom: 50px;
 }
+ .item {
+   padding: 20px;
+   list-style: none;
+ }
 
-
-.list-text:nth-child(odd) {
+.item:nth-child(odd) {
   background-color: lightgrey;
   width: 960px;
   padding: 20px;
